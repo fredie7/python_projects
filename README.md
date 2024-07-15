@@ -13,6 +13,7 @@ A project developed off a META Python Backend Engineering course participation f
 - **Booking Management**: Manage restaurant table bookings.
 - **User Roles**: Assign roles such as Manager, Delivery Crew, and handle permissions.
 - **Authentication**: Secure endpoints with token-based authentication.
+- **Unit Testing & API Testing**: For Quality Assurance
 
 ## Installation
 
