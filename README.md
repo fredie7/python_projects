@@ -18,12 +18,6 @@ A project developed off a META Python Backend Engineering course participation f
 
 ### Prerequisites
 
-- Python 3.x
-Please, install all dependencies from the requirements.txt file:
+- Python 3.x and 
+please, install other dependencies from the requirements.txt file:
 pip install -r requirements.txt
-
-1. **Clone the repository**
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
