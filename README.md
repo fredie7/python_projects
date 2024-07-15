@@ -18,6 +18,6 @@ A project developed off a META Python Backend Engineering course participation f
 
 ### Prerequisites
 
-- Python 3.x and 
-please, install other dependencies from the requirements.txt file:
-pip install -r requirements.txt
+- Python 3.x
+- Please, install other dependencies from the requirements.txt file:
+- pip install -r requirements.txt
