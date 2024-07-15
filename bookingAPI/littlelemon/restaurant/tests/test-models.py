@@ -7,5 +7,5 @@ class MenuTest(TestCase):
         # Obtain Menu Items       
         menu_item = Menu.objects.create(title="Test Dish", price=10.99, inventory=100)
         
-        # Assert the menu item is created and the string representation is correct        
+        # Confirm that the menu item is created and the string representation is correct        
         self.assertEqual(str(menu_item), "Test Dish : 10.99")

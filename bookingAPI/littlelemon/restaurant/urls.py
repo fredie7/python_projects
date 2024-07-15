@@ -14,10 +14,11 @@ router.register(r'users', views.UserViewSet)
 router.register(r'tables', views.BookingViewSet)
 
 urlpatterns = [
+    # Include all routes registered with the router
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     
-    # Define URL routes for the restaurant app's menu views
+    # Define routes for the restaurant app's menu views
     path('menu/', views.MenuItemsViewSet.as_view(), name='menu-items'),
     path('menu/<int:pk>/', views.SingleMenuItemViewSet.as_view(), name='single-menu-item'),
     path('restaurant/booking/', include(router.urls)),
